@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+
+  <body>
+    <h1>Live streaming</h1>
+    <div>
+      <a href={{url_for("index1")}}>Upload image</a>
+
+
+
+        <img src="{{ url_for('video') }}" width="50%"/>
+    </div>
+      {% if pred %}
+        <p class="text-center">Image is stored as {{pred}}</p>
+      {% endif %}
+
+    </body>
+
+
+</html>
