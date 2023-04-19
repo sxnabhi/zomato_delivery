@@ -65,7 +65,7 @@ def detect_person(img):
             s = 0
             for j in range(10):
                 s = s + matches[j].distance
-            if (s/10) <= 180:
+            if (s/10) <= 180: # selected 180 as the threshold after anlalysing the distances on a sample of images
                 company= "ZOMATO"
                 break
         final ="Person detected and belong to "+company
