@@ -111,6 +111,6 @@ def video():
 
 
 if __name__ == "__main__":
-    app.run(processes=5)
+    app.run(processes=5) # when running locally remove the processes argument
 
 
